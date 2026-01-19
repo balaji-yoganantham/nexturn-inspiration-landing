@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 interface ProjectCardProps {
   title: string;
   image: string;
@@ -15,8 +17,17 @@ const ProjectCard = ({
   learnMoreUrl,
   tooltip,
 }: ProjectCardProps) => {
+  const navigate = useNavigate();
+
+  const handleDoubleClick = () => {
+    navigate(learnMoreUrl);
+  };
+
   return (
-    <article className="group relative bg-card rounded-xl overflow-hidden border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+    <article 
+      onDoubleClick={handleDoubleClick}
+      className="group relative bg-card rounded-xl overflow-hidden border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 cursor-pointer"
+    >
       {/* Tooltip badge */}
       {tooltip && (
         <div className="absolute top-4 left-4 z-10 px-3 py-1 bg-secondary/90 backdrop-blur-sm rounded-full text-xs font-medium text-muted-foreground">

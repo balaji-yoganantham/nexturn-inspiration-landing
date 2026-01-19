@@ -7,7 +7,7 @@ const projects = [
     keyPrompt: "Accelerate your digital evolution",
     description:
       "AI-driven approach to building cloud-native solutions. We engineer resilient cloud architectures and develop scalable applications.",
-    learnMoreUrl: "#cloud",
+    learnMoreUrl: "/cloud-engineering",
     tooltip: "Featured",
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     keyPrompt: "Create a data-driven future",
     description:
       "Build modern data platforms to power advanced analytics and scalable machine learning, enabling AI innovations with measurable impact.",
-    learnMoreUrl: "#data-ai",
+    learnMoreUrl: "/data-ai",
     tooltip: "Popular",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     keyPrompt: "Maximize CRM investment value",
     description:
       "Leverage Agentforce platform to build solutions integrating core CRM, industry clouds, Einstein AI, and Data Cloud capabilities.",
-    learnMoreUrl: "#salesforce",
+    learnMoreUrl: "/salesforce",
   },
   {
     title: "Oracle Solutions",
@@ -33,7 +33,7 @@ const projects = [
     keyPrompt: "Enterprise-grade performance",
     description:
       "Comprehensive Oracle solutions including cloud infrastructure, enterprise applications, and database management services.",
-    learnMoreUrl: "#oracle",
+    learnMoreUrl: "/oracle",
   },
   {
     title: "ServiceNow Implementation",
@@ -41,7 +41,7 @@ const projects = [
     keyPrompt: "Streamline workflows at scale",
     description:
       "Transform your business operations with intelligent automation, service management, and enterprise workflow solutions.",
-    learnMoreUrl: "#servicenow",
+    learnMoreUrl: "/servicenow",
     tooltip: "New",
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     keyPrompt: "Future-proof your business",
     description:
       "End-to-end digital transformation services that modernize your infrastructure and accelerate innovation.",
-    learnMoreUrl: "#digital",
+    learnMoreUrl: "/digital-transformation",
   },
 ];
 

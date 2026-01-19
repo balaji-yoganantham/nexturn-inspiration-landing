@@ -6,12 +6,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <a href="/" className="flex items-center gap-2 mb-4">
-              <svg viewBox="0 0 32 32" className="w-7 h-7" fill="none">
-                <path
-                  d="M16 4L6 14h6v14h8V14h6L16 4z"
-                  fill="hsl(199, 100%, 50%)"
-                />
-              </svg>
+              <img 
+                src="/logo.png" 
+                alt="NexTurn Logo" 
+                className="w-8 h-8 object-contain"
+              />
               <span className="text-xl font-semibold text-foreground">
                 NexTurn
               </span>
